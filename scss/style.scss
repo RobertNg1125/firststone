@@ -1,0 +1,28 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+// Font awesome
+@import '../bower_components/font-awesome/scss/font-awesome';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Breakpoints
+@import "breakpoints";
+
+// Partials
+@import "partials/block/block";
+
+@import "partials/misc/breadcrumb";
+@import "partials/misc/misc";
+@import "partials/misc/reset";
+
+@import "partials/navigation/navbar";
+
+@import "partials/system/layout";
+@import "partials/system/region";
+@import "partials/system/section";
+
+@import "partials/views/views";

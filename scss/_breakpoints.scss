@@ -1,0 +1,42 @@
+
+/**
+** Breakpoints and use case
+**/
+
+// $screen-sm: 768px !default;
+// $screen-sm-min: $screen-sm !default;
+
+// $screen-lg: 1200px !default;
+// $screen-lg-min: $screen-lg !default;
+
+// $screen-xs-max: ($screen-sm-min - 1) !default;
+// $screen-md-max: ($screen-lg-min - 1) !default;
+
+/*
+ * Defining media queries
+ */
+$screen: "only screen" !default;
+
+$mobile-up: $screen !default;
+$mobile-only: "#{$screen} and (max-width: #{$screen-xs-max)})" !default;
+
+$tablet-up: "#{$screen} and (min-width: #{$screen-sm)})" !default;
+$tablet-only: "#{$screen} and (min-width: #{$screen-sm)}) and (max-width: #{$screen-md-max})" !default;
+$tablet-down: "#{$screen} and (max-width: #{$screen-md-max)})" !default;
+
+$desktop-up: "#{$screen} and (min-width: #{$screen-lg)})" !default;
+$desktop-only: "#{$screen} and (min-width: #{$screen-lg)})" !default;
+
+
+/*
+ * Use case
+ */
+// @media #{$mobile-up}     { ... }
+// @media #{$mobile-only}     { ... }
+
+// @media #{$tablet-up}     { ... }
+// @media #{$tablet-only}     { ... }
+// @media #{$tablet-down}     { ... }
+
+// @media #{$desktop-up}     { ... }
+// @media #{$desktop-only}     { ... }

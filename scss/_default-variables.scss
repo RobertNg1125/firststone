@@ -1,0 +1,50 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Set proper directory for the Font-awesome fonts
+$fa-font-path: '../bower_components/font-awesome/fonts';
+
+/*****************************************
+ * COLOURSCHEME variables
+ *****************************************/
+$primary-color: #333;  
+// #secondary-color: #cfcfcf;
+/*****************************************
+ * end of Colourscheme
+ *****************************************/
+
+ /*****************************************
+  * BOOTSTRAP variables
+  * Check bootstrap-sass/assets/variables
+  *****************************************/
+// $brand-primary: #333;
+//
+// $body-bg: #fff !default;
+// $text-color: $gray-dark !default;
+//
+// $link-color: $brand-primary !default;
+// $link-hover-color: darken($link-color, 15%) !default;
+// $link-hover-decoration: underline !default;
+//
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+//
+// $headings-font-family: inherit !default;
+// $headings-font-weight: 500 !default;
+// $headings-line-height: 1.1 !default;
+// $headings-color: inherit !default;
+/*****************************************
+ * End if Bootstrap variables
+ *****************************************/
