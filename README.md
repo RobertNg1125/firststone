@@ -38,6 +38,8 @@ $ cd theme/firststone
 $ gulp
 ```
 
+## What FirstStone does
+
 Gulp is set up to detect changes in theme folder:
 
 - SCSS changes -> compile CSS -> refresh all browsers connected 🤘
@@ -45,7 +47,7 @@ Gulp is set up to detect changes in theme folder:
 - YML file or TWIG file changes -> run `drush cache-rebuild` -> refresh all browsers connected 🤘🤖
 
 
-##NPM packages used
+## NPM packages used
 
 * **browser-sync** - Keep multiple browsers & devices in sync when building websites
 * **gulp** - Toolkit to automate development workflow
@@ -56,5 +58,5 @@ Gulp is set up to detect changes in theme folder:
 
 
 
-#### TIPS:
+## TIPS:
 If BrowserSync runs but CSS doesn't get update, check Browser's cache settings, or view site on Incognito mode
